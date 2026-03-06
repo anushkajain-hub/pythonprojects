@@ -40,7 +40,7 @@ def guess_letter():
         root.destroy()
 
     if lives == 0:
-        messagebox.showinfo("Bummer", f"You lost! The word was {word}")
+        messagebox.showinfo("Game Over", f"Bummer! The word was {word}")
         root.destroy()
 
 
