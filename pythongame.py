@@ -40,13 +40,13 @@ def guess_letter():
         root.destroy()
 
     if lives == 0:
-        messagebox.showinfo("Game Over", f"You lost! The word was {word}")
+        messagebox.showinfo("Bummer", f"You lost! The word was {word}")
         root.destroy()
 
 
 root = tk.Tk()
 root.title("Guess the Word Game")
-root.geometry("350x200")
+root.geometry("360x200")
 
 word_label = tk.Label(root, text=" ".join(display), font=("Arial", 24))
 word_label.pack(pady=10)
